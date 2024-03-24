@@ -55,6 +55,9 @@ body{
     max-width: 1070px;
 
 }
+.living-room__image>img {
+    width: 100%;
+}
 .living-room__info-text {
     margin-bottom: 10px;
     line-height: 30px;
