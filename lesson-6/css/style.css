@@ -217,8 +217,7 @@ background-position: fixed;
 
 }
 .test__container {
-    /* background: linear-gradient(to left, #d00c0c, #333 50%, #d7d0d0 75%, #473a3a 75%); */
-    background-color: #2b2929;
+     background: linear-gradient(to left, #d00c0c, #333 50%, #d7d0d0 75%, #473a3a 75%); 
 }
 .test__row {
 }
@@ -227,6 +226,7 @@ background-position: fixed;
     margin: 30px 0px;
 }
 .test-image>img{
+    width: 100%;
     border: 5px solid rgb(255, 255, 255);
 }
 .test__number-1>img {
@@ -257,6 +257,7 @@ background-position: fixed;
     margin-right: 15px;
     background: url(../img/test/forest-landscape_71767-127.avif) 0 0 no-repeat fixed;
     background-size: cover;
+    width: 100%;
 }
 /* ================================= */
 .footer__container {
