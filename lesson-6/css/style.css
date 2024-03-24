@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(./fonts-proxima-nova.css);
+@import url(./null.css);
+
+/* ==================================================== */
+body{
+    font-family: 'ProximaNova';
+    color: #2b2929;
+
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* ==================================== */
+.header__wrapper{
+    background:linear-gradient(to left,rgb(91, 54, 54),rgb(130, 50, 50),rgb(37, 101, 37));
+
+}
+.header__container {
+    padding: 40px 0 ;
+}
+.header__list {
+    text-align: center;
+}
+.header__item {
+    display: inline-block;
+    margin: 0 40px;
+}
+.header__link{
+    color: #b4b1b1;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+/* ================================ */
+.living-room__container {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.living-room__section-top {
+    margin-bottom: 40px;
+}
+.living-room__title {
+    font-size: 40px;
+    text-align: left;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.living-room__image {
+    margin-bottom: 40px;
+    max-width: 1070px;
+
+}
+.living-room__info-text {
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.living-room__section-info {
+    margin-bottom: 40px;
+}
+.living-room__sub-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.living-room__list-text {
+    min-height: 25px;
+    margin-left: 33px;
+
+}
+.living-room__check-mark{
+    vertical-align: top;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: -20px -20px;
+    border-radius: 50%;
+    border: 2px solid rgb(242 129 0);
+    margin-left: -33px;
+}
+.living-room__check-mark-check{
+    margin: 5px auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 59% 41% 64% 36% / 59% 0% 100% 41%  ;
+    border: 2px solid rgb(242 129 0);
+    border-top: none;
+
+}
+
+.living-room__item-text {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.living-room__recommendations {
+    line-height: 30px;
+}
+/* =============================================== */
+.explore__wrapper {
+    background-color:#914cff;
+    background-image: url(../img/Holographic2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.explore__container {
+    max-width: 1310px;
+    font-family: "Quicksand",sans-serif;
+    color: #fff;
+    background-image: url(../img/Alphabet-Patterns.png);
+}
+.explore__row{
+vertical-align: top;
+}
+.explore__info {
+    display: inline-block;
+    max-width: 600px;
+}
+.explore__title {
+    margin-bottom: 24px;
+    padding-top: 121px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.explore__text {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.explore__button {
+    display: inline-block;
+    padding-bottom: 121px;
+    color: #0d1216;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 12px 20px;
+    background-color: #fff;
+    border-radius: 8px 8px 8px 8px;
+}
+.explore__button-icon {
+}
+.explore__image {
+    display: inline-block;
+    vertical-align: top;
+
+}
+/* ================================================ */
+.collections__wrapper {
+    background-color: #f1f1f1;
+}
+.collections__container {
+    padding: 80px 0;
+    max-width: 1260px;
+    font-family: "Roboto",sans-serif;
+    color: #000;
+}
+.collections__row {
+
+}
+.collections__info {
+    display: inline-block;
+    max-width: 682px;
+}
+.collections__title {
+    margin-top: 100px;
+    margin-bottom: 52px;
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 55px;
+}
+.collections__text {
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 55px;
+    margin-bottom: 66px;
+  }
+.collections__button {
+    display: inline-block;
+    background-color: #1e2832;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 29px;
+    padding: 19px 26px;
+}
+.collections__button-icon {
+    display: inline-block;
+}
+.collections__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 427px;
+    height: 546px;
+    border-radius: 156px 0 161px 0;
+    border-style: solid;
+    border-color: rgb(123, 121, 121);
+}
+.collections__image>img{
+    margin: -15px 0px 0px -15px;
+}
+/* ======================================== */
+.test__wrapper {
+    background: url(../img/test/forest-landscape_71767-127.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-position: fixed;
+
+}
+.test__container {
+    /* background: linear-gradient(to left, #d00c0c, #333 50%, #d7d0d0 75%, #473a3a 75%); */
+    background-color: #2b2929;
+}
+.test__row {
+}
+.test-image{
+    text-align: center;
+    margin: 30px 0px;
+}
+.test-image>img{
+    border: 5px solid rgb(255, 255, 255);
+}
+.test__number-1>img {
+
+    border-radius: 50%
+}
+.test__number-2>img {
+    border-radius: 60% 0% 20% 100%;
+    border-style: double;
+}
+.test__number-3>img {
+    outline: 5px dashed white;
+    border-radius: 20px
+}
+.test__number-4 {
+    background-image: url(../img/test/завантаження.jpeg);
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+.test__number-5 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-right: 15px;
+    background: url(../img/test/forest-landscape_71767-127.avif) 0 0 no-repeat fixed;
+    background-size: cover;
+}
+/* ================================= */
+.footer__container {
+    padding: 30px 0;
+}
+.footer__link {
+    text-align: center;
+}
+.footer__link>a {
+    font-weight: 700;
+    font-size: 50px;
+}
