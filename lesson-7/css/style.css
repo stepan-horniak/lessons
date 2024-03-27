@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(./null.css);
+/* ================================== */
+body{
+    font-family: "Exo",sans-serif;
+    color: #fff;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* ====================================== */
+.about-me__wrapper {
+    background-color: black;
+}
+.about-me__container {
+    padding: 70px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-me__wrapper-title{
+    margin: 0 auto;
+    max-width: 980px;
+}
+.about-me__title {
+    display: inline-block;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.166; /* 70/60 */
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.about-me__title:hover{
+    color: rgb(174, 167, 167);
+}
+.about-me__title::after {
+    content: '';
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    height: 1px;
+    width: 130%;
+    margin-left: -15%;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 51%, rgba(36, 0, 255, 1) 100%);
+}
+.about-me__info-user {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2.222; /* 40/18 */
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.about-me__info-user:hover{
+    color: rgb(174, 167, 167);
+}
+.about-me-info__item {
+    display: inline-block;
+    margin: 0 60px 0 0;
+}
+.about-me-info__item:last-child {
+    margin-right: 0;
+}
+.about-me-info__link {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25; /* 25/20 */
+    margin-bottom: 15px;
+}
+.about-me-info__link:hover{
+    color: rgb(174, 167, 167);
+}
+.about-me-info__link::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 51%, rgba(36, 0, 255, 1) 100%);
+    margin-left: 60px ;
+
+}
+/* =========================== */
+.footer {
+}
+.footer__container {
+    padding: 70px 0;
+}
+.footer__list {
+    text-align: center;
+}
+.footer__item {
+    display: inline-block;
+    margin-right: 80px ;
+}
+.footer__link {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+.footer__link:hover{
+    color: rgb(174, 167, 167);
+}
+.footer__link::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right:20px ;
+    vertical-align: bottom;
+}
+.footer-link-icon-1::before{
+    background-image: url(../img/about-me/Call.svg);
+
+}
+.footer-link-icon-2::before{
+    background-image: url(../img/about-me/Location.svg);
+
+}
+.footer-link-icon-3::before{
+    background-image: url(../img/about-me/Email.svg);
+
+}
+/* ===================================== */
+.favorite-layout__container {
+    max-width: 1070px;
+    font-family: 'roboto',sans-serif;
+    color: #2b2929;
+}
+.favorite-layout__top {
+}
+.favorite-layout-top {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.favorite-layout-top__title {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 50px;
+    
+}
+.favorite-layout-top__image {
+    margin-bottom: 50px;
+    
+}
+.favorite-layout-top__image>img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+.favorite-layout-top__info p {
+    padding: 0 16px;
+    line-height: 1.875;
+    margin-bottom: 10px;
+}
+.favorite-layout-top__info p:last-child {
+    margin-bottom: 0;
+}
+/* ============ */
+.favorite-layout__shop {
+}
+.favorite-layout-shop {
+    margin-bottom: 40px;
+}
+.favorite-layout-shop__title {
+    font-size: 20px;
+    line-height: 1.4; /* 28/20 */
+    margin-bottom: 30px;
+}
+.favorite-layout-shop__item {
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 1.875; /* 30/16 */
+    margin-left: 47px;
+}
+.favorite-layout-shop__item::before{
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon-favorite-shop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-left: -47px;
+    margin-right: 15px;
+}
+.favorite-layout-shop__list >* {
+    margin-bottom: 20px;
+}
+.favorite-layout-shop__list >*:last-child {
+    margin-bottom: 0;
+}
+.footer__text {
+    line-height: 1.875; /* 30/16 */
+    padding-bottom: 40px;
+}
+/* ===================================== */
+.game__container {
+    background-color: #2b2929;
+    padding: 40px 0;
+}
+.game__wrapper {
+    font-size: 0;
+}
+/* ============= */
+.game__area {
+    background-color: #fff;
+    visibility: hidden;
+}
+
+.game-area-1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+    background-color: rgb(0, 128, 0);
+    visibility: visible;
+}
+.game-area-1:hover+.game-area-1,
+.game-area-2:hover {
+visibility: visible;
+background-color: #b44242;
+
+}
+.game-area-1:hover+.game-area-2,
+.game-area-2:hover {
+visibility: visible;
+background-color: #b44242;
+
+}
+.game-area-2:hover+.game-area-3,
+.game-area-3:hover {
+    visibility: visible;
+    background-color: #b44242;
+
+}
+.game-area-3:hover+.game-area-4,
+.game-area-4:hover {
+    visibility: visible;
+    background-color: #b44242;
+
+}
+.game-area-4:hover+.game-area-5,
+.game-area-5:hover {
+    visibility: visible;
+    background-color: #b44242;
+
+}
+.game-area-5:hover+.game-area-6,
+.game-area-6:hover {
+    visibility: visible;
+    background-color: #b44242;
+
+}
+.game-area-6:hover+.game-area-7,
+.game-area-7:hover {
+    visibility: visible;
+    background-color: #b44242;
+
+}
+.game-area-7:hover+.game-area-8,
+.game-area-8:hover {
+    visibility: visible;
+    background-color: #b44242;
+
+}
+.game-area-2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 425px;
+}
+.game-area-3 {
+    width: 700px;
+    height: 50px;
+    margin-left: 425px;
+}
+.game-area-4 {
+    width: 25px;
+    height: 200px;
+    margin-left: 1100px;
+}
+.game-area-5 {
+    width: 800px;
+    height: 30px;
+    margin-left: 325px;
+}
+.game-area-6 {
+    width: 25px;
+    height: 50px;
+    margin-left: 325px;
+}
+.game-area-7 {
+    width: 50px;
+    height: 50px;
+    margin-left: 312px;
+    background-color: rgb(255, 0, 0);
+    
+}
+.game-area-8 {
+    width: 300px;
+    margin: -46px 0px 0px 401px;
+}
