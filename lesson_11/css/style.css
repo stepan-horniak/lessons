@@ -272,7 +272,7 @@ font-size: 25px;
   transform: scale(-1,1);
 }
 .test__cart:nth-child(5)>.cart-test__item:hover {
-transform: scale(20%);
+transform: scale(0.2);
 }
 .test__cart:nth-child(6)>.cart-test__item:hover {
   transform: scale(1.3);
