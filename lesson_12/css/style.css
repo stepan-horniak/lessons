@@ -251,7 +251,7 @@ left: 15%;
 }
 @keyframes wheel-spins{
   0%{
-    transform:(0deg);
+    transform:rotate(0deg);
   }
   25%{
     transform: rotate(-10000deg);
