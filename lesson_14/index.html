@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>lesson 14</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <form class="form" enctype="multipart/form-data" method="post" action="#">
+      <div class="info">
+        <div class="info__container">
+          <div class="info__title title">
+            <div class="title__icon"><img src="./img/info/icon-info.svg" alt="#"></div>
+            <h4 class="title__name">Інформація про покупця</h4>
+          </div>
+          <div class="info__user user-info">
+            <input class="user-info__input" placeholder="Прізвище" type="text">
+            <input class="user-info__input" placeholder="Контактний телефон" type="text">
+            <input class="user-info__input" placeholder="Ім’я" type="text">
+            <input class="user-info__input" placeholder="E-mail" type="text">
+            <input class="user-info__input" placeholder="По батькові" type="text">
+          </div>
+          <label for="another-person-checkbox" class="info__another-person another-person-info">
+            <input class="another-person-info__input" type="checkbox" id="another-person-checkbox">
+            <span class="another-person-info__text">Отримуватиме замовлення інша людина</span>
+          </label>
+        </div>
+      </div>
+      <div class="delivery">
+        <div class="delivery__container">
+          <div class="delivery__title title">
+            <div class="title__icon"><img src="./img/delivery/icon-dostavka.svg" alt="#"></div>
+            <h4 class="title__name">Вибір способу доставки</h4>
+          </div>
+          <div class="delivery__way-dalivary dalivary-way">
+            <ul class="dalivary-way__list">
+              <li class="dalivary-way__item item-delivary">
+                <input class="item-delivary__input" checked id="delivary-radio" type="radio" name="delivery">
+                <label class="item-delivary__label item-delivary__label--icon-shop" for="delivary-radio">
+                  <span class="item-delivary__title">Самовивіз із магазину</span>
+                  <span class="item-delivary__price">Безплатно</span>
+                </label>
+              </li>
+              <li class="dalivary-way__item item-delivary">
+                <input class="item-delivary__input" id="delivary-radio" type="radio" name="delivery">
+                <label class="item-delivary__label item-delivary__input--icon-mail" for="delivary-radio">
+                  <span class="item-delivary__title">Доставка Нова Пошта</span>
+                  <span class="item-delivary__price">≈ від 500 грн</span>
+                </label>
+              </li>
+              <li class="dalivary-way__item item-delivary">
+                <input class="item-delivary__input" id="delivary-radio" type="radio" name="delivery">
+                <label class="item-delivary__label item-delivary__label--icon-courier" for="delivary-radio">
+                  <span class="item-delivary__title">Доставка кур'єром</span>
+                  <span class="item-delivary__price">≈ від 200 грн</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="delivery__address address-delivery">
+            <div class="address-delivery__wrapper-info">
+              <p class="address-delivery__info">Графік роботи: щодня з 9:00 до 18:00
+              </p>
+              <p class="address-delivery__address">м. Київ, пров. Ізяславський 52, пов. 2</p>
+            </div>
+            <button class="address-delivery__button">
+              <span>На мапі</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="payment">
+        <div class="payment__container">
+          <div class="payment__title title">
+            <div class="title__icon"><img src="./img/payment/icon-oplata.svg" alt="#"></div>
+            <h4 class="title__name">Вибір способу оплати</h4>
+          </div>
+          <div class="payment__item">
+            <label for="payment-method-1" class="payment__radio radio-payment">
+              <input class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-1">
+              <span class="radio-payment__text">Готівкою при отриманні (Післясплата)</span>
+            </label>
+            <label for="payment-method-2" class="payment__radio radio-payment">
+              <input class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-2">
+              <span class="radio-payment__text">Оплата карткою на сайті</span>
+              <img src="./img/payment/master-card-logo.svg" alt="#">
+              <img src="./img/payment/visa-card-logo.svg" alt="#">
+            </label>
+
+            <label for="payment-method-3" class="payment__radio radio-payment">
+              <input checked class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-3">
+              <span class="radio-payment__text">Privat Pay</span>
+              <img src="./img/payment/privat-pay-logo.svg" alt="#">
+            </label>
+            <label for="payment-method-4" class="payment__radio radio-payment">
+              <input class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-4">
+              <span class="radio-payment__text">Кредит від Krovato</span>
+            </label>
+            <label for="payment-method-5" class="payment__radio radio-payment">
+              <input class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-5">
+              <span class="radio-payment__text">Оплата частинами ПриватБанк</span>
+              <img src="./img/payment/privaty-credit-logo.svg" alt="#">
+            </label>
+            <label for="payment-method-6" class="payment__radio radio-payment">
+              <input class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-6">
+              <span class="radio-payment__text">Оплата частинами МоноБанк</span>
+              <img src="./img/payment/mono-bank-logo.svg" alt="#">
+            </label>
+            <label for="payment-method-2" class="payment__radio radio-payment">
+              <input class="radio-payment__input" type="radio" name="payment-radio" id="payment-method-2">
+              <span class="radio-payment__text">нерозумію чому коли обираються радіо кнопки в цій секції проскролюється наверх</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="comment__container">
+          <div class="comment__title title">
+            <div class="title__icon"><img src="./img/comment/icon-comment.svg" alt="#"></div>
+            <h4 class="title__name">Коментар до замовлення</h4>
+          </div>
+          <textarea class="comment__user-text" placeholder="Ваш коментар" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="confirm">
+        <div class="confirm__container">
+          <h6 class="confirm__title">Разом:</h6>
+          <div class="confirm__sum sum-confirm">
+            <ul class="sum-confirm__list">
+              <li class="sum-confirm__item">
+                <p class="sum-confirm__info-text">4 товари на суму:</p>
+                <div class="sum-confirm__border-line"></div>
+                <div class="sum-confirm__info">540 269 грн.</div>
+              </li>
+              <li class="sum-confirm__item">
+                <p class="sum-confirm__info-text">Вартість доставки:</p>
+                <div class="sum-confirm__border-line"></div>
+                <div class="sum-confirm__info">За тарифами оператора</div>
+              </li>
+              <li class="sum-confirm__item">
+                <p class="sum-confirm__info-text">До оплати:</p>
+                <div class="sum-confirm__border-line"></div>
+                <div class="sum-confirm__info sum-confirm__info--font-size">540 269 грн.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="confirm__checkbox checkbox-confirm">
+            <label for="confirm-checkbox" class="confirm__label">
+              <input class="checkbox-confirm__input" type="checkbox" id="confirm-checkbox">
+              <span class="checkbox-confirm__text">Не передзвонюйте мені для підтвердження<br> замовлення</span>
+            </label>
+          </div>
+          <button type="submit" class="confirm__button">ОФОРМИТИ ЗАМОВЛЕННЯ
+          </button>
+          <p class="confirm__info info-confirm">
+            Підтверджуючи замовлення, я приймаю умови <a class="info-confirm__link" href="#">Угоди користувача</a>
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
