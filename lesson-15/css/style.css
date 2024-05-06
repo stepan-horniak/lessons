@@ -679,6 +679,10 @@ transform: scale(1.1);
   box-shadow: -3px 4px 15px 0 rgba(0,0,0,0.5);
 }
 }
+/* .item-populars__card:hover +  */
+.item-populars__card:hover::after {
+opacity: 1;
+}
 .card-item-populars {
 }
 .card-item-populars__title {
@@ -725,7 +729,11 @@ transform: scale(1.1);
   background-image: url(../img/populars/arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  opacity: 0;
+  transition: 0.3s;
 }
+
+
 @media (max-width: 1050px){
 }
 @media (max-width: 991.98px) {
@@ -875,12 +883,18 @@ transform: scale(1.1);
   align-items: center;
   gap: 10px;
 }
-.buy-most-popular__selected {
+@media (any-hover: hover) {
+.buy-most-popular__selected:hover, .buy-most-popular__basket:hover {
+  transform: scale(1.1);
+  box-shadow: -3px 4px 15px 0 rgba(0,0,0,0.2);
+}
 }
 .buy-most-popular__basket {
 }
 .buy-most-popular__selected, .buy-most-popular__basket {
   width: 50px;
+  border-radius: 50%;
+  transition: 0.3s;
 }
 .buy-most-popular__selected>img, .buy-most-popular__basket>img {
   width: 100%;
